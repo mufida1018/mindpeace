@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "944637862227",
+    "project_id": "mindpeace-c0502",
+    "storage_bucket": "mindpeace-c0502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944637862227:android:70e1ae13288286ddab41a6",
+        "android_client_info": {
+          "package_name": "com.codeaamy.mindpeace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944637862227-ddt4havso6c9i8ht6iuvffrs6jsalhf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeaamy.mindpeace",
+            "certificate_hash": "e00a4a7de6df350be6c97a508b3aa1af2573c23e"
+          }
+        },
+        {
+          "client_id": "944637862227-6sstjprbp0ciq2rih5n91n7bpn3slkhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdPXrfEam3pENhMuExNS481aPF0ybcO_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944637862227-6sstjprbp0ciq2rih5n91n7bpn3slkhf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "944637862227-o4ip6a40h277o4qcmur5t6nr748u9rir.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codeaamy.mindpeace"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
