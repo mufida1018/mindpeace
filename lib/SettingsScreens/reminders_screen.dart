@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mindpeace/Widget/appbar.dart';
 
 class RemindersScreen extends StatefulWidget {
   const RemindersScreen({Key key}) : super(key: key);
@@ -11,13 +12,8 @@ class _RemindersScreenState extends State<RemindersScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Reminders', style: TextStyle(color: Colors.black),),
-        backgroundColor: Colors.white,
-        centerTitle: false,
-        iconTheme: IconThemeData(
-          color: Colors.black
-        ),
+      appBar: kAppBar(
+        title: 'Set Reminders',
       ),
     );
   }

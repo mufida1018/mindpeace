@@ -9,8 +9,10 @@ import 'package:mindpeace/SettingsScreens/invite_friends_screen.dart';
 import 'package:mindpeace/SettingsScreens/job_offers_screen.dart';
 import 'package:mindpeace/SettingsScreens/language_screen.dart';
 import 'package:mindpeace/SettingsScreens/notification_screen.dart';
+import 'package:mindpeace/SettingsScreens/privay_policy.dart';
 import 'package:mindpeace/SettingsScreens/profile_screen.dart';
 import 'package:mindpeace/SettingsScreens/reminders_screen.dart';
+import 'package:mindpeace/SettingsScreens/terms_and_conditions.dart';
 import 'package:mindpeace/Widget/customRoundButton.dart';
 import 'package:mindpeace/Widget/custom_alert.dart';
 import 'package:mindpeace/Widget/settings_row.dart';
@@ -169,11 +171,17 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     Settings_Row(
                         width: width,
                         title: 'Terms and Conditions',
-                        onPressed: () {}),
+                        onPressed: () {
+                          pushNewScreen(context, screen: TermsAndConditionsScreen(), withNavBar: false);
+
+                        }),
                     Settings_Row(
                         width: width,
                         title: 'Privacy Policy',
-                        onPressed: () {}),
+                        onPressed: () {
+                          pushNewScreen(context, screen: PrivacyPolicyScreen(), withNavBar: false);
+
+                        }),
                     Settings_Row(
                         width: width, title: 'Credits', onPressed: () {
                           pushNewScreen(context, screen: CreditScreens(), withNavBar: false);

@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 
 import 'package:http/http.dart' as http;
+import 'package:mindpeace/Widget/appbar.dart';
 
 
 class AccountAndSubscriptionScreen extends StatefulWidget {
@@ -37,14 +38,7 @@ class _AccountAndSubscriptionScreenState extends State<AccountAndSubscriptionScr
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        title: Text('Account and Subscription', style: TextStyle(color: Colors.black),),
-        centerTitle: false,
-        iconTheme: IconThemeData(
-            color: Colors.black
-        ),
-      ),
+      appBar: kAppBar(title: 'Accounts & Subscription',),
     );
   }
 

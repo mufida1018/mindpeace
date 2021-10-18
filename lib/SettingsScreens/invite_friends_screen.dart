@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mindpeace/Widget/appbar.dart';
 
 class InviteFriends extends StatelessWidget {
   const InviteFriends({ Key key }) : super(key: key);
@@ -8,11 +9,8 @@ class InviteFriends extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Invite Friends', style: TextStyle(color: Colors.black),),
-        backgroundColor: Colors.white,
-        iconTheme: IconThemeData(color: Colors.black),
-        centerTitle: false,
+      appBar: kAppBar(
+        title: 'Invite Friends',
       ),
       body: Container(),
     );

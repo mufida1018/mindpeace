@@ -35,6 +35,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Profile', style: TextStyle(color: Colors.black),),
+        centerTitle: false,
         leading: IconButton(
           icon: Icon(Icons.arrow_back_ios, color: Colors.black,),
           onPressed: (){

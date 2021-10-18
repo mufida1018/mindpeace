@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mindpeace/Widget/appbar.dart';
 
 class NotificationScreen extends StatefulWidget {
   const NotificationScreen({Key key}) : super(key: key);
@@ -11,13 +12,8 @@ class _NotificationScreenState extends State<NotificationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Notification', style: TextStyle(color: Colors.black),),
-        centerTitle: false,
-        backgroundColor: Colors.white,
-        iconTheme: IconThemeData(
-          color: Colors.black
-        ),
+      appBar: kAppBar(
+        title: 'Notification',
       ),
     );
   }
